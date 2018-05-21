@@ -117,6 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 422307593}
   - component: {fileID: 422307592}
+  - component: {fileID: 422307594}
   m_Layer: 0
   m_Name: roulette
   m_TagString: Untagged
@@ -179,6 +180,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &422307594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422307591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b05998a31815f3d4db7593c670049746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &682793712
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,7 +256,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 682793712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 2.89, z: 0}
+  m_LocalPosition: {x: -0, y: 3.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
